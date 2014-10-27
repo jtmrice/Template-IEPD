@@ -5,4 +5,5 @@ before_install:
 script:
     - xmllint --schema http://www.w3.org/2001/XMLSchema.xsd --noout xsd/extension/TemplateExtension.xsd
     - xmllint --schema xsd/extension/TemplateExtension.xsd --noout iep-samples/*.xml
+    - xmllint --schema http://tools.niem.gov/IEPD/mpd-catalog-3.0.xsd --noout mpd-catalog.xml
 
