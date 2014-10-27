@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="US-ASCII"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <c:Catalog 
-    xmlns:hw="http://example.com/HelloWorld/1.0/"
+    xmlns:template="http://example.com/template/1.0/"
     xmlns:c="http://reference.niem.gov/niem/resource/mpd/catalog/3.0/"
     xmlns:structures="http://release.niem.gov/niem/structures/3.0/"
     xmlns:nc="http://release.niem.gov/niem/niem-core/3.0/">
