@@ -1,0 +1,7 @@
+before_install:
+    - sudo apt-get update -qq
+    - sudo apt-get install -qq libxml2-utils
+script:
+    - xmllint --schema --valid http://www.w3.org/2001/XMLSchema.xsd --noout xsd/extension/TemplateExtension.xsd
+    - xmllint --schema --valid xsd/extension/TemplateExtension.xsd --noout iep-samples/*.xml
+
