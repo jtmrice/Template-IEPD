@@ -33,7 +33,7 @@
             </c:XMLSchemaValid>
             <c:IEPSampleXMLDocument c:pathURI="iep-samples/exchange-sample.xml"/>
         </c:IEPConformanceTarget>
-        <c:ReadMe c:pathURI="readme.txt"/>
+        <c:ReadMe c:pathURI="Readme.md"/>
         <c:MPDChangeLog c:pathURI="changelog.txt"></c:MPDChangeLog>
         <c:Wantlist c:pathURI="xsd/wantlist.xml"/>
         <c:ConformanceAssertion c:pathURI="conformance-assertion.txt"/>
